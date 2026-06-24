@@ -1,4 +1,4 @@
-from datasets.preprocessing.scannet.meta_data.scannet200_constants import (
+from LitePT.datasets.preprocessing.scannet.meta_data.scannet200_constants import (
     CLASS_LABELS_200,
 )
 

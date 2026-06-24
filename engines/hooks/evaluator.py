@@ -12,7 +12,7 @@ from LitePT.utils.misc import intersection_and_union_gpu
 from .default import HookBase
 from .builder import HOOKS
 
-from datasets.transform import Compose
+from LitePT.datasets.transform import Compose
 from metrics.semantic import ConfusionMatrix
 
 from torch_scatter import scatter_mean
