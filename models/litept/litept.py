@@ -6,7 +6,7 @@ import spconv.pytorch as spconv
 import flash_attn
 from timm.layers import DropPath
 
-from libs.pointrope import PointROPE
+from LitePT.libs.pointrope import PointROPE
 from LitePT.models.builder import MODELS
 from LitePT.models.modules import PointModule, PointSequential, Embedding, GridPooling, GridUnpooling
 from LitePT.models.utils.structure import Point
