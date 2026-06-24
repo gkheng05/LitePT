@@ -22,7 +22,8 @@ dependencies = [
 "torch-geometric==2.5.3",
 "colorhash",
 "torchmetrics",
-"flash-attn"
+"flash-attn",
+"spconv-cu124"
 ]
 
 [tool.setuptools]
