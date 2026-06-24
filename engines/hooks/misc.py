@@ -34,7 +34,7 @@ AMP_DTYPE = dict(
 
 def get_testers():
     # lazy import to prevent circular import
-    from engines.test import TESTERS
+    from LitePT.engines.test import TESTERS
     return TESTERS
 @HOOKS.register_module()
 class IterationTimer(HookBase):

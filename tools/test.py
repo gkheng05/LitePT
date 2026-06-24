@@ -1,10 +1,10 @@
-from engines.defaults import (
+from LitePT.engines.defaults import (
     default_argument_parser,
     default_config_parser,
     default_setup,
 )
-from engines.test import TESTERS
-from engines.launch import launch
+from LitePT.engines.test import TESTERS
+from LitePT.engines.launch import launch
 
 
 def main_worker(cfg):
