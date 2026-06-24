@@ -9,7 +9,7 @@ import torch.utils.data
 
 from .defaults import create_ddp_model
 import LitePT.utils.comm as comm
-from datasets import build_dataset, collate_fn
+from LitePT.datasets import build_dataset, collate_fn
 from models import build_model
 from LitePT.utils.logger import get_root_logger
 from LitePT.utils.registry import Registry

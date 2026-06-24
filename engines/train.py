@@ -18,7 +18,7 @@ from tensorboardX import SummaryWriter
 from .defaults import create_ddp_model, worker_init_fn
 from .hooks import HookBase, build_hooks
 import LitePT.utils.comm as comm
-from datasets import build_dataset, point_collate_fn, collate_fn
+from LitePT.datasets import build_dataset, point_collate_fn, collate_fn
 from models import build_model
 from LitePT.utils.logger import get_root_logger
 from LitePT.utils.optimizer import build_optimizer

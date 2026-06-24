@@ -5,7 +5,7 @@ import torch.utils.data
 
 import LitePT.utils.comm as comm
 from LitePT.datasets.utils import point_collate_fn
-from datasets import ConcatDataset
+from LitePT.datasets import ConcatDataset
 from LitePT.utils.env import set_seed
 
 
