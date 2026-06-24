@@ -1,0 +1,20 @@
+# ninja log v5
+1	20088	1782302084184668665	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/ball_query/ball_query_cuda.o	fe9be769917cb167
+1	20507	1782302084620663203	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/attention/attention_cuda.o	bf99764262d5a0a1
+0	20520	1782302084634663028	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/aggregation/aggregation_cuda.o	b55cc208d1288f8b
+2	20861	1782302084975658755	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/grouping/grouping_cuda.o	bd9a33647663e59d
+1	38701	1782302102788435587	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/attention/attention_cuda_kernel.o	2d9da033db6063ce
+1	39094	1782302103184430626	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/aggregation/aggregation_cuda_kernel.o	265a74d91f4237a8
+20507	39549	1782302103665424600	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/interpolation/interpolation_cuda.o	17bd51cd248b6508
+2	41308	1782302105413402700	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/ball_query/ball_query_cuda_kernel.o	6ddc4552fac87847
+20862	43192	1782302107289379196	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/knn_query/knn_query_cuda.o	467e791480e34793
+39549	59535	1782302123651174197	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/random_ball_query/random_ball_query_cuda.o	7f5ad5b9b762e07e
+43192	62749	1782302126868133890	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/sampling/sampling_cuda.o	bdbca79cbec91937
+20521	62882	1782302126969132624	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/interpolation/interpolation_cuda_kernel.o	9dd061c2343b12f6
+20097	64507	1782302128613112025	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/grouping/grouping_cuda_kernel.o	363d7603d699cd57
+39095	75681	1782302139771972203	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/pointops_api.o	e07402580ac974e4
+62749	77918	1782302142035943834	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/subtraction/subtraction_cuda.o	c7744475db1248b5
+38703	78114	1782302142226941441	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/knn_query/knn_query_cuda_kernel.o	6ebd115ec20e2923
+41308	79449	1782302143554924801	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/random_ball_query/random_ball_query_cuda_kernel.o	203e3b3ce0fb04a9
+59535	90063	1782302154173791738	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/sampling/sampling_cuda_kernel.o	910340afc5f44082
+62882	92608	1782302156714759897	/workspace/3d-fyp/LitePT/libs/pointops/build/temp.linux-x86_64-cpython-312/src/subtraction/subtraction_cuda_kernel.o	f589aec3405d54df
