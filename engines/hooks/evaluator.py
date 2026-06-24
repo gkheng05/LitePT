@@ -6,8 +6,8 @@ import torch.distributed as dist
 import pointops
 from uuid import uuid4
 
-import utils.comm as comm
-from utils.misc import intersection_and_union_gpu
+importLitePT.utils.comm as comm
+fromLitePT.utils.misc import intersection_and_union_gpu
 
 from .default import HookBase
 from .builder import HOOKS

@@ -6,8 +6,8 @@ from copy import deepcopy
 from torch.utils.data import Dataset
 from collections.abc import Sequence
 
-from utils.logger import get_root_logger
-from utils.cache import shared_dict
+fromLitePT.utils.logger import get_root_logger
+fromLitePT.utils.cache import shared_dict
 from .builder import DATASETS
 from .defaults import DefaultDataset
 from .transform import Compose, TRANSFORMS

@@ -1,4 +1,4 @@
-from utils.registry import Registry
+fromLitePT.utils.registry import Registry
 
 
 HOOKS = Registry("hooks")

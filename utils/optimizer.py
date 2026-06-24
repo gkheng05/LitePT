@@ -1,6 +1,6 @@
 import torch
-from utils.logger import get_root_logger
-from utils.registry import Registry
+fromLitePT.utils.logger import get_root_logger
+fromLitePT.utils.registry import Registry
 
 OPTIMIZERS = Registry("optimizers")
 

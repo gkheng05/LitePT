@@ -8,12 +8,12 @@ import torch.nn.functional as F
 import torch.utils.data
 
 from .defaults import create_ddp_model
-import utils.comm as comm
+importLitePT.utils.comm as comm
 from datasets import build_dataset, collate_fn
 from models import build_model
-from utils.logger import get_root_logger
-from utils.registry import Registry
-from utils.misc import (
+fromLitePT.utils.logger import get_root_logger
+fromLitePT.utils.registry import Registry
+fromLitePT.utils.misc import (
     AverageMeter,
     intersection_and_union,
     intersection_and_union_gpu,

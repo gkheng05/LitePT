@@ -9,7 +9,7 @@ import torch
 import copy
 from collections.abc import Sequence, Mapping
 
-from utils.registry import Registry
+fromLitePT.utils.registry import Registry
 
 TRANSFORMS = Registry("transforms")
 

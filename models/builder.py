@@ -1,4 +1,4 @@
-from utils.registry import Registry
+fromLitePT.utils.registry import Registry
 
 MODELS = Registry("models")
 MODULES = Registry("modules")
