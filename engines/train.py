@@ -17,14 +17,14 @@ from tensorboardX import SummaryWriter
 
 from .defaults import create_ddp_model, worker_init_fn
 from .hooks import HookBase, build_hooks
-importLitePT.utils.comm as comm
+import LitePT.utils.comm as comm
 from datasets import build_dataset, point_collate_fn, collate_fn
 from models import build_model
-fromLitePT.utils.logger import get_root_logger
-fromLitePT.utils.optimizer import build_optimizer
-fromLitePT.utils.scheduler import build_scheduler
-fromLitePT.utils.events import EventStorage, ExceptionWriter
-fromLitePT.utils.registry import Registry
+from LitePT.utils.logger import get_root_logger
+from LitePT.utils.optimizer import build_optimizer
+from LitePT.utils.scheduler import build_scheduler
+from LitePT.utils.events import EventStorage, ExceptionWriter
+from LitePT.utils.registry import Registry
 
 TRAINERS = Registry("trainers")
 AMP_DTYPE = dict(

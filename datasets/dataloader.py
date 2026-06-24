@@ -3,10 +3,10 @@ import weakref
 import torch
 import torch.utils.data
 
-importLitePT.utils.comm as comm
+import LitePT.utils.comm as comm
 from datasets.utils import point_collate_fn
 from datasets import ConcatDataset
-fromLitePT.utils.env import set_seed
+from LitePT.utils.env import set_seed
 
 
 class MultiDatasetDummySampler:

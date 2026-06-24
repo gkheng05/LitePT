@@ -1,4 +1,4 @@
-importLitePT.utils.comm as comm
+import LitePT.utils.comm as comm
 import weakref
 from .builder import HOOKS
 

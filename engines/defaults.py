@@ -5,9 +5,9 @@ import multiprocessing as mp
 from torch.nn.parallel import DistributedDataParallel
 from time import gmtime, strftime
 
-importLitePT.utils.comm as comm
-fromLitePT.utils.env import get_random_seed, set_seed
-fromLitePT.utils.config import Config, DictAction
+import LitePT.utils.comm as comm
+from LitePT.utils.env import get_random_seed, set_seed
+from LitePT.utils.config import Config, DictAction
 
 
 def create_ddp_model(model, *, fp16_compression=False, **kwargs):
