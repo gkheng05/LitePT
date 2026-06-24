@@ -3,12 +3,12 @@ import torch.nn as nn
 import torch_scatter
 import torch_cluster
 
-from models.losses import build_criteria
-from models.utils.structure import Point
-from models.utils import offset2batch
+from LitePT.models.losses import build_criteria
+from LitePT.models.utils.structure import Point
+from LitePT.models.utils import offset2batch
 from .builder import MODELS, build_model
 
-from models.modules import PointModel, PointSequential
+from LitePT.models.modules import PointModel, PointSequential
 import spconv.pytorch as spconv
 
 import torch.distributed as dist

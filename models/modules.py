@@ -7,7 +7,7 @@ import torch_scatter
 
 from addict import Dict
 from collections import OrderedDict
-from models.utils.structure import Point
+from LitePT.models.utils.structure import Point
 from engines.hooks import HookBase
 
 

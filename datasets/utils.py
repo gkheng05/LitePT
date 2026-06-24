@@ -4,7 +4,7 @@ import numpy as np
 import torch
 from torch.utils.data.dataloader import default_collate
 
-from models.utils import offset2batch
+from LitePT.models.utils import offset2batch
 
 
 def collate_fn(batch):

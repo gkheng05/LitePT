@@ -7,9 +7,9 @@ import flash_attn
 from timm.layers import DropPath
 
 from libs.pointrope import PointROPE
-from models.builder import MODELS
-from models.modules import PointModule, PointSequential, Embedding, GridPooling, GridUnpooling
-from models.utils.structure import Point
+from LitePT.models.builder import MODELS
+from LitePT.models.modules import PointModule, PointSequential, Embedding, GridPooling, GridUnpooling
+from LitePT.models.utils.structure import Point
 class PointROPEAttention(PointModule):
     def __init__(
         self,
