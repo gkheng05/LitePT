@@ -13,7 +13,7 @@ from .default import HookBase
 from .builder import HOOKS
 
 from LitePT.datasets.transform import Compose
-from metrics.semantic import ConfusionMatrix
+from LitePT.metrics.semantic import ConfusionMatrix
 
 from torch_scatter import scatter_mean
 from torch.nn.functional import normalize
